@@ -12,6 +12,7 @@ echo "loading....."
 #We returned to README_Week7_Data.txt file and deleted the lines with the ';;' character present, single ';' character present, 'NA' present, and blank spaces present  using the command...
 
 grep -n ";;" OriginalData.txt | grep -n ";$"
+grep -n "NA" OriginalData.txt
 
 
 #Action 2:
